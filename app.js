@@ -37,3 +37,16 @@ for (var i = 0; i < 5; i++) {
 
 }
 
+var b=3
+for (var i = 0; i < 4; i++) {
+    var a=""
+    for(var j = 0; j < 3; j++){
+        a=a+" "+b
+        b+=3
+        
+    }
+    console.log(a)
+     
+
+    
+}
